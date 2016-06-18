@@ -24,11 +24,11 @@ void processMonth(float, float);
 
 int main() {
 //Declare variables for main
-	float balance;		//Beginning bank balance
-	char  option;		//Users input
-	float transAmt;		//Transaction amount
-	float totalSvcFee;	//Total service fee
-	int	  svcFeeCounter = 0;	//Service fee counter initialized to 0
+	float balance;			//Beginning bank balance
+	char  option;			//Users input
+	float transAmt;			//Transaction amount
+	float totalSvcFee;		//Total service fee
+	int   svcFeeCounter = 0;	//Service fee counter initialized to 0
 
 //	Set precision and display title
 	cout << fixed << showpoint << setprecision(2);
@@ -39,7 +39,7 @@ int main() {
 
 //	Do/While loop to manage the menu loop
 	do {
-		showMenu(option); 					//Call the menu and receive user option
+		showMenu(option); 			//Call the menu and receive user option
 		getTransaction(option, transAmt);	//Call the transaction loop
 		//Process menu selection
 		//Call and process a check
