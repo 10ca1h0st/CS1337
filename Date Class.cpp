@@ -65,7 +65,7 @@ string Date::getMonthName()
 
 	//Create an array of strings with our month names
 	string monthString[] = { "January","February","March","April","May","June",
-							 "July","August","September","October","November","December" };
+				 "July","August","September","October","November","December" };
 
 	//Return index value of array to get our month name
 	return monthString[x - 1];
